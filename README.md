@@ -19,7 +19,7 @@ derive 2 int(inc,inc_factor) values from key(Using any method)
 
 for each char c in key:
 
-	pass ASCII value of c as seed and shuffle arr
+&emsp;pass ASCII value of c as seed and shuffle arr
 	
 arr[] //Original arr
 
@@ -31,19 +31,19 @@ flag=0
 
 for each char c in password:
 
-	i = index of c from arr
+&emsp;i = index of c from arr
   
-	if flag=0:
+&emsp;if flag=0:
   
-		i = (i+inc)%95
+&emsp;&emsp;i = (i+inc)%95
     
-	else:
+&emsp;else:
   
-		i = (i-inc)%95
+&emsp;&emsp;i = (i-inc)%95
     
-	enc_password += shuff_arr[i]
+&emsp;enc_password += shuff_arr[i]
   
-	inc = (inc+inc_factor)%95
+&emsp;inc = (inc+inc_factor)%95
 
 output enc_password // Encrypted Password
 
@@ -60,7 +60,7 @@ derive 2 int(inc,inc_factor) values from key(Using same method used in encryptio
 
 for each char c in key:
 
-	pass ASCII value of c as seed and shuffle arr
+&emsp;pass ASCII value of c as seed and shuffle arr
 	
 arr[] //Original arr
 
@@ -72,18 +72,18 @@ flag=1
 
 for each char c in password:
 
-	i = index of c from arr
+&emsp;i = index of c from arr
   
-	if flag=0:
+&emsp;if flag=0:
   
-		i = (i+inc)%95
+&emsp;&emsp;i = (i+inc)%95
     
-	else:
+&emsp;else:
   
-		i = (i-inc)%95
+&emsp;&emsp;i = (i-inc)%95
     
-	dec_password += shuff_arr[i]
+&emsp;dec_password += shuff_arr[i]
   
-	inc = (inc+inc_factor)%95
+&emsp;inc = (inc+inc_factor)%95
 
 output dec_password // Decrypted Password
