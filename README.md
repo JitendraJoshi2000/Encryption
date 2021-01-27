@@ -1,7 +1,7 @@
 # Encryption
 This is Encryption algorithm designed by me. 
 
-This python code takes 'Input.txt' test file and ask password for encryption/decryption and creates 'Output.txt' file.
+This python and Java codes encrypts/decrypts password.
 
 <b>Pseudo Code</b>
 
