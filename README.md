@@ -1,5 +1,5 @@
 # Encryption
-This is Encryption algorithm designed by me. 
+This is Encryption algorithm designed by me. Base on Cipher encryption.
 
 This python and Java codes encrypts/decrypts password.
 
